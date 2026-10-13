@@ -1,0 +1,10 @@
+name = "circle-hypothesis-ai"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+OPENAI_MODEL = "gpt-6-luna"
+
+# API key는 여기에 쓰지 마세요.
+# 배포 전:
+# npx wrangler secret put OPENAI_API_KEY
